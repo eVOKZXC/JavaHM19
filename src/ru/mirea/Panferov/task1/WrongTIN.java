@@ -6,4 +6,8 @@ public class WrongTIN extends Exception{
         super(message);
     }
 
+    @Override
+    public String getMessage() {
+        return "Вы неверно ввели ФИО или ИНН пользователя!";
+    }
 }
